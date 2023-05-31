@@ -54,7 +54,7 @@ export default {
 header {
     margin: 30px 10%;
     
-    height: 200px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,7 +68,8 @@ header {
             li{
                 list-style-type: none;
                 padding-right: 10px;
-                font-size: 12px;
+                font-size: 22px;
+                font-weight: bold;
                
             }
             

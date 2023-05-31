@@ -1,11 +1,18 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import Jumbotron from './components/Jumbotron.vue'
+import MenuPrincipale from './components/MenuPrincipale.vue'
+import FooterUp from './components/FooterUp.vue'
+import FooterDown from './components/FooterDown.vue'
+
 export default {
   components : {
       AppHeader,
-      Jumbotron
-
+      Jumbotron,
+      MenuPrincipale,
+      FooterUp,
+      FooterDown
+    
   }
 
 }
@@ -18,7 +25,17 @@ export default {
     
     <main>
       <Jumbotron/>
+      <MenuPrincipale/>
+      
+
+
     </main>
+      <footer>
+        <FooterUp/>
+        <FooterDown/>
+
+
+      </footer>
     
     
   </body>
