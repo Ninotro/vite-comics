@@ -12,7 +12,7 @@ export default {
 <template>
     <section id="Jumbotron">
         <div class="container">
-            <p> - - >  Content goes here &lt; - -   </p>
+            
         </div>
     </section>
     
@@ -24,8 +24,10 @@ export default {
 @use "../styles/general.scss" as* ;
 
 #Jumbotron {
-    background-color: black;
-    height: 150px;
+    background-image: url(../assets/Immagini/jumbotron.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .container {
         display: flex;

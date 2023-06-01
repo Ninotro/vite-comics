@@ -4,6 +4,8 @@ import Jumbotron from './components/Jumbotron.vue'
 import MenuPrincipale from './components/MenuPrincipale.vue'
 import FooterUp from './components/FooterUp.vue'
 import FooterDown from './components/FooterDown.vue'
+import ProductList from './components/ProductList.vue'
+
 
 export default {
   components : {
@@ -11,7 +13,8 @@ export default {
       Jumbotron,
       MenuPrincipale,
       FooterUp,
-      FooterDown
+      FooterDown,
+      ProductList
     
   }
 
@@ -25,6 +28,7 @@ export default {
     
     <main>
       <Jumbotron/>
+      <ProductList/>
       <MenuPrincipale/>
       
 
