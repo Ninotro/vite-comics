@@ -96,6 +96,7 @@ export default {
             <div class="container">
                 <ProductCard v-for="(product,index) in listCard" :key="index"
                 :details="product"/>
+                <div class="button">Load more</div>
             </div>
 
     </section>
@@ -108,12 +109,24 @@ export default {
 
 #ProductList {
     background-color: black;
-    height: 1000px; 
+    height: 1200px; 
     .container {
       padding-top: 80px;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      .button {
+        font-size: 35px;
+        color: white;
+        padding: 30px;
+        font-weight: bold;
+        text-align: center;
+        width: 500px;
+        background-color: #0282f9;;
+        align-self: center;
+        margin-left: calc(50% - 250px);
+        margin-bottom: 100px;
+      }
     }
 }
 
